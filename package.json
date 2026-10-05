@@ -1,0 +1,24 @@
+{
+  "name": "pulse_backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/costell-j/pulse_backend#readme",
+  "bugs": {
+    "url": "https://github.com/costell-j/pulse_backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costell-j/pulse_backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {}
+}

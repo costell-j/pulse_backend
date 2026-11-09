@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+:root {
+    --darkblue: #12323D;
+    --darkerblue: #12323D12;
+    --tealbtns: #147D7A;
+    --kindablue: #34515B;
+    --tealhover: #0F6664;
+    --heromint: #EDF8F6;
+    --ctamint: #DFF3ED;
+    --light-teal: #E8F6F2;
+    --lightgold: #F9F0DF;
+    --lightblue: #E8F3F8;
+    --lightlavender: #F3EAF4;
+    --maintext: #58767D;
+    --mutedtext: #668087;
+    --borders: #DDE9EA;
+    --footertext: #AEC6C9;
+    --whiteish: #F5FAF9;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    background: var(--heromint);
+    color: var(--maintext);
+}
+
+.api-endpoints {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 24px;
+}
+
+.endpoint-card {
+    background: white;
+    border: 1px solid var(--borders);
+    border-radius: 12px;
+    padding: 24px;
+}
